@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/bb5ec023dc.js" crossorigin="anonymous"></script>
     <title>Responsive Flower Website</title>
 </head>
+
 <body>
     <header>
+
+        <!-- nav section-->
+        <nav class="inter flex items-center justify-evenly md:justify-between max-w-[1140px] mx-auto mt-[30px]">
+            <img class="w-16 md:w-[135px] mr-16" src="assets/logo.png" alt="">
+            <div>
+                <ul class="flex gap-12">
+                    <li class="font-bold hidden md:block">Home</li>
+                    <li class="text-[#78716c] hidden md:block">Shop</li>
+                    <li class="text-[#78716c] hidden md:block">About us</li>
+                    <li class="flex"><img class="w-[30px]" src="assets/cart.svg" alt="">Cart($56)</li>
+                </ul>
+            </div>
+        </nav>
+
 
     </header>
 
@@ -15,7 +34,8 @@
     </main>
 
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
