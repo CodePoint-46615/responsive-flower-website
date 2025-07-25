@@ -10,7 +10,7 @@
     <title>Responsive Flower Website</title>
 </head>
 
-<body>
+<body class="md:w-full md:mx-auto">
     <header class="max-w-[1140px] mx-auto">
         <!-- nav section-->
         <nav class="inter flex items-center justify-evenly md:justify-between mt-[30px]">
@@ -28,7 +28,8 @@
         <!-- hero section -->
         <div class="flex flex-col-reverse md:flex-row md:items-end mt-7 md:mt-30 gap-[13px] md:gap-0">
             <div class="max-w-[570px] mx-4 md:mx-auto">
-                <h1 class="noto-serif font-bold text-2xl md:text-[65px]">ALWAYS <span class="text-[#E95A08]">FRESH <br>FLOWERS</span></h1>
+                <h1 class="noto-serif font-bold text-2xl md:text-[65px]">ALWAYS <span class="text-[#E95A08]">FRESH
+                        <br>FLOWERS</span></h1>
                 <p class="inter text-black/50 text-[14px] md:text-[22px]">Indulge your senses with the beauty and
                     fragrance of our fresh flower shop. Fromclassic roses to exotic blooms, we offer a wide variety of
                     fresh flowers that are perfect for any occasion. </p>
@@ -50,7 +51,8 @@
         </section>
 
         <!-- card-container section -->
-        <section class="grid grid-cols-2 md:grid-cols-4 gap-x-5 gap-y-[28.5px] mr-[17px] ml-[14px] mb-[41.5px]  md:mb-[210.12px]">    
+        <section
+            class="grid grid-cols-2 md:grid-cols-4 gap-x-5 gap-y-[28.5px] mr-[17px] ml-[14px] mb-[41.5px]  md:mb-[210.12px]">
             <!-- card 1 -->
             <div class="inter text-center w-[171px] md:w-[270px]">
                 <img src="assets/sample-flower-image.png" alt="">
@@ -133,19 +135,84 @@
         </section>
 
         <!-- plant lover section -->
-         <div class="md:flex md:items-center gap-12 mr-[15px] ml-[17px]">
-            <img class="" src="assets/flower-store.png" alt="">
-            <div>
-                <h1 class="noto-serif font-bold text-2xl md:text-[50px] mt-[18px] mb-4">Flower & Plants Lover</h1>
-                <ul class="inter list-disc mr-[15px] ml-[17px] text-[14px] md:text-[22px] text-black/50">
-                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                </ul>
+        <section class="mb-[143px]">
+            <div class="md:flex md:items-center gap-12 mr-[15px] ml-[17px]">
+                <img class="" src="assets/flower-store.png" alt="">
+                <div>
+                    <h1 class="noto-serif font-bold text-2xl md:text-[50px] mt-[18px] mb-4">Flower & Plants Lover</h1>
+                    <ul class="inter list-disc mr-[15px] ml-[17px] text-[14px] md:text-[22px] text-black/50">
+                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+                            roses to exotic blooms, we offer a wide variety of fresh.</li>
+                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+                            roses to exotic blooms, we offer a wide variety of fresh.</li>
+                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+                            roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    </ul>
+                </div>
             </div>
-         </div>
-         <img class="hidden md:block w-[286px] h-[286px] mt-[-720px] ml-[350px]" src="assets/trusted-badge.png" alt="">
+            <img class="hidden md:block w-[286px] h-[286px] mt-[-720px] ml-[350px] md:mb-[571px]"
+                src="assets/trusted-badge.png" alt="">
+        </section>
+
+        <!-- deal section -->
+        <section class="mb-[40px]">
+            <div class="text-center noto-serif ">
+                <h1 class="font-bold text-2xl md:text-[50px]"><span class="text-[#E95A08]">Latest</span> Deals</h1>
+                <p
+                    class="inter max-w-[336px] md:max-w-[888px] mx-auto text-black/50 mb-7 md:mb-[50px] text-[14px] md:text-[22px] mb-[51px]">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                    exotic
+                    blooms, we offer a wide variety of fresh.</p>
+            </div>
+
+            <div class="md:flex md:gap-7 mx-4">
+                <div>
+                    <div>
+                        <img class="rounded-[14px] mb-5" src="assets/deal-bloom.png" alt="">
+                        <div class="w-[270px] ml-[49px] mr-[47px] absolute mt-[-150px] text-white text-center">
+                            <h3 class="text-center noto-serif font-bold text-xl">60% Off | Bloom Plant</h3>
+                            <a class="inter font-semibold text-[16px] underline" href="">Shop Now</a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img class="mb-5" src="assets/deal-ana.png" alt="">
+                        <div class="w-[270px] ml-[49px] mr-[47px] absolute mt-[-150px] text-white text-center">
+                            <h3 class="text-center noto-serif font-bold text-xl">30% Off | Ana Plant</h3>
+                            <a class="inter font-semibold text-[16px] underline" href="">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img class="rounded-[14px] mb-5" src="assets/deal-zabo.png" alt="">
+                    <div
+                        class="w-[350px] md:w-[498px] ml:[49px] md:ml-[120px] mr-[42px] md:mr-[58px] absolute mt-[-150px] md:mt-[-250px] text-white text-center ">
+                        <h3 class="text-center noto-serif font-bold text-xl md:text-[40px]">25% Off | Zabo Plant</h3>
+                        <a class="inter font-semibold text-[16px] md:text-[28px] underline" href="">Shop Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
+
+    <!-- join section -->
+    <section>
+        <div
+            class="bg-[url(/assets/news-letter-bg.png)] h-[300px] md:h-[533px] bg-cover bg-center pt-[110px] px-[15px] md:px-[305px] content-center">
+
+            <h3 class="noto-serif text-white text-center font-bold text-xl md:text-[50px] mb-[23px]">Join the colorful Bunch</h3>
+
+            <div class="flex w-[321px] md:w-[830px] max-w-[321px] md:max-w-[830px] mx-auto">
+                <input type="email" class="inter w-[218px] md:w-[644px] email  bg-white pl-5 text-black/40" placeholder="Write email">
+                <button
+                    class="bg-[#E95A08] px-[19px] py-[12px] text-white inter font-semibold text-[18px]">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+
 
     <footer>
 
